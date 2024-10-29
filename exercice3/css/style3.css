@@ -1,0 +1,36 @@
+#conteneur {
+    background-color: aqua;
+    size: auto;
+    align-content: center;
+    display: grid;
+    grid-template-areas:
+        "header header header "
+        " nav nav nav        "
+        "aside Dans main     "
+        "footer footer footer";
+    grid-gap: 5px;
+    font-size: 30px;
+    padding: 100px;
+    border:5px;
+}
+
+#header {
+    grid-area: header;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#main {
+    grid-area: Dans main;
+}
+
+#footer {
+    grid-area: footer;
+}
+

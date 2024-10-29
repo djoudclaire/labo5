@@ -1,0 +1,44 @@
+.puzzle {
+    display: grid;
+
+    grid-template-areas:
+        "p1 p8 p5"
+        "p4 p3 p6"
+        "p2 p7 p9";
+}
+
+.piece1 {
+    grid-area: p1;
+}
+
+.piece2 {
+    grid-area: p2;
+}
+
+.piece3 {
+    grid-area: p3;
+}
+
+.piece4 {
+    grid-area: p4;
+}
+
+.piece5 {
+    grid-area: p5;
+}
+
+.piece6 {
+    grid-area: p6;
+}
+
+.piece7 {
+    grid-area: p7;
+}
+
+.piece8 {
+    grid-area: p8;
+}
+
+.piece9 {
+    grid-area: p9;
+}

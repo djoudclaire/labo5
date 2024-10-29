@@ -1,0 +1,36 @@
+#conteneur1{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    size: 40px;
+    
+}
+
+div:nth-child(even) {
+   background-color: red;
+   border: 1px solid black ;
+ text-align: center;  
+}
+div:nth-child(odd){
+background-color: green;
+border: 1px solid black;
+text-align: center;
+}
+
+
+
+
+#conteneur2 {
+    grid-template-columns: 1fr 2fr 3fr;
+    display: grid;
+    size: 40px;
+}
+
+#conteneur3 {
+    size: 40px;
+    display:grid ;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+column-gap: 3px;
+row-gap: 3px;
+
+}
