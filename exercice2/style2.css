@@ -2,43 +2,59 @@
     display: grid;
 
     grid-template-areas:
-        "p1 p8 p5"
-        "p4 p3 p6"
-        "p2 p7 p9";
+        "p1 p2 p3"
+        "p4 p5 p6"
+        "p7 p8 p9";
+        grid-template-rows: repeat(auto-fill,150px);
+        grid-template-columns: repeat(auto-fill,250px);
+}
+.piece-l {
+
+}
+.piece-s {
+}
+.piece-h{
+    
 }
 
-.piece1 {
+
+
+#piece01 {
     grid-area: p1;
 }
 
-.piece2 {
+#piece02 {
     grid-area: p2;
 }
 
-.piece3 {
+#piece03 {
     grid-area: p3;
 }
 
-.piece4 {
+#piece04 {
     grid-area: p4;
 }
 
-.piece5 {
+#piece05 {
     grid-area: p5;
 }
 
-.piece6 {
+#piece06 {
     grid-area: p6;
 }
 
-.piece7 {
+#piece07 {
     grid-area: p7;
 }
 
-.piece8 {
+#piece08 {
     grid-area: p8;
 }
 
-.piece9 {
+#piece09 {
     grid-area: p9;
 }
+#piece10 {
+    grid-area: p10;
+}
+

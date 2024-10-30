@@ -2,7 +2,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     size: 40px;
-    
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 div:nth-child(even) {
@@ -23,6 +25,9 @@ text-align: center;
     grid-template-columns: 1fr 2fr 3fr;
     display: grid;
     size: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #conteneur3 {
@@ -32,5 +37,7 @@ text-align: center;
     grid-template-rows: 2fr 1fr 1fr;
 column-gap: 3px;
 row-gap: 3px;
-
+max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
