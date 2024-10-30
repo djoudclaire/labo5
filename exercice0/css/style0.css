@@ -1,43 +1,45 @@
-#conteneur1{
+#conteneur1 {
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
-    size: 40px;
-    max-width: fit-content;
+    max-width: 500px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 div:nth-child(even) {
-   background-color: red;
-   border: 1px solid black ;
- text-align: center;  
-}
-div:nth-child(odd){
-background-color: green;
-border: 1px solid black;
-text-align: center;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+
 }
 
+div:nth-child(odd) {
+    background-color: green;
+    border: 1px solid black;
+    text-align: center;
+}
 
+#p1,#p3,#p5,#p7,#p9{
+    background-color: green;
+}
 
+#p2,#p4,#p6{
+background-color: red;}
 
 #conteneur2 {
     grid-template-columns: 1fr 2fr 3fr;
     display: grid;
-    size: 40px;
-    max-width: fit-content;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #conteneur3 {
-    size: 40px;
-    display:grid ;
+    display: grid;
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: 2fr 1fr 1fr;
-column-gap: 3px;
-row-gap: 3px;
-max-width: fit-content;
+    gap: 5px;
+    max-width:500px;
     margin-left: auto;
     margin-right: auto;
 }

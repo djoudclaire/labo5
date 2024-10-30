@@ -1,7 +1,6 @@
 #conteneur {
-    background-color: aquamarine;
     align-content: center;
-    display:grid;
+    display: grid;
     grid-template-areas:
         "header header header "
         " nav nav nav        "
@@ -11,27 +10,39 @@
     font-size: 30px;
     padding: 10px;
     border: 3px solid white;
-    max-width :50%;;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
+    height:80vh ;
 }
 
 #header {
     grid-area: header;
+    background-color: aquamarine;
+
 }
 
 #nav {
     grid-area: nav;
+    background-color: aquamarine;
+
 }
 
 #aside {
     grid-area: aside;
+    background-color: aquamarine;
+
 }
 
 #main {
     grid-area: Dans main;
+    background-color: aquamarine;
+grid-column-start:2 ;
+grid-column-end: 4;
 }
 
 #footer {
     grid-area: footer;
+    background-color: aquamarine;
+
 }
